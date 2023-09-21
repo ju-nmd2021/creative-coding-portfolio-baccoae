@@ -21,6 +21,13 @@
         "github": "https://www.github.com/pixelkind"
     },
     {
+        "file": "experiments/letter_warp_v3.js",
+        "name": "Lucky Number Warp",
+        "description": "Experimenting with mouse position interactions. Here, the width and height of the shapes drawing the number vary depending on the mouse position. The higher on the canvas, the smaller the shapes, and the more right to the canvas, the thickest.",
+        "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+        "github": "https://www.github.com/pixelkind"
+    },
+    {
         "file": "experiments/columns.js",
         "name": "letter warp thingy",
         "description": "Press the 'R', 'B' and 'G' keys to generate shapes, play around with how long you press the keys to have different results.",

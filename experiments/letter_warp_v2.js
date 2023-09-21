@@ -6,13 +6,6 @@ let x, y;
 let acceleration = 0;
 let easing = 0.005;
 
-
-// SINE WAVE STUFF
-let theta = 0.0; // Start angle at 0
-let amplitude = 75.0; // Height of wave
-let period = 500.0; // How many pixels before the wave repeats
-let dx; // Value for incrementing x
-
 let firstLetter = [];
 let secondLetter = [];
 
@@ -27,9 +20,6 @@ function setup() {
 
     x = canvasWidth / 4;
     y = canvasHeight - 150;
-
-    dx = (TWO_PI / period) * 2;
-    yvalues = new Array(floor(canvasWidth / 2));
 
     firstLetter = font.textToPoints("a", x, y, fontSize, {
         sampleFactor: 0.10
@@ -56,8 +46,6 @@ function draw() {
 
         fill(255, 0, 0);
         ellipse(firstLetter[i].x - acceleration * 1.1, firstLetter[i].y - 1, 1, 1);
-        //theta += 0.0002;
-        //firstLetter[i].x = theta;
 
         let targetX = secondLetter[i].x;
         let targetY = secondLetter[i].y;
