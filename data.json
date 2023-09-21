@@ -2,7 +2,7 @@
     {
         "file": "experiments/waves.js",
         "name": "bloo",
-        "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+        "description": "Basic (very) experimentation with grid systems and chaotic settings to generate a piece of 'art.",
         "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
         "github": "https://www.github.com/pixelkind"
     },
@@ -10,6 +10,20 @@
         "file": "experiments/letter_warp.js",
         "name": "letter warp thingy",
         "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+        "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+        "github": "https://www.github.com/pixelkind"
+    },
+    {
+        "file": "experiments/letter_warp_v2.js",
+        "name": "second letter warp thingy",
+        "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+        "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+        "github": "https://www.github.com/pixelkind"
+    },
+    {
+        "file": "experiments/columns.js",
+        "name": "letter warp thingy",
+        "description": "Press the 'R', 'B' and 'G' keys to generate shapes, play around with how long you press the keys to have different results.",
         "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
         "github": "https://www.github.com/pixelkind"
     }

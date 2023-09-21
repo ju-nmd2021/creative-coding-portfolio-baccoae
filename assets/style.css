@@ -24,6 +24,7 @@ h5,
 h6 {
     margin: auto;
     font-weight: 600;
+    mix-blend-mode: difference;
 }
 
 #name {
@@ -31,6 +32,7 @@ h6 {
 }
 p {
     margin: 0.4rem 0 1rem 0;
+    mix-blend-mode: difference;
 }
 
 #p5container {
@@ -57,8 +59,9 @@ main {
     flex-direction: row;
     padding: 1em;
     grid-area: information;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
     z-index: 2;
+    mix-blend-mode: difference;
 }
 
 main section {
@@ -75,4 +78,5 @@ main section {
 a,
 a:visited {
     color: white;
+    mix-blend-mode: difference;
 }
